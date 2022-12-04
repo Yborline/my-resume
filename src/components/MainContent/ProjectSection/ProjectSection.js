@@ -6,7 +6,7 @@ const ProjectSection = () => {
   const website1 = {
     name: "WEB STUDIO",
     http: "https://yborline.github.io/goit-markup-hw-08/",
-    text: "[HTML, CSS, SASS, BEM] , a website with a responsive layout",
+    text: "[HTML, CSS, SASS, BEM] , a website with a responsive layout.",
     frontendCode: "https://github.com/Yborline/goit-markup-hw-08",
   };
 
@@ -31,7 +31,7 @@ const ProjectSection = () => {
   };
 
   return (
-    <>
+    <section>
       <Title title={titleProject} />
       <TextProject
         linkToProject={website1.http}
@@ -59,7 +59,7 @@ const ProjectSection = () => {
         LinkToCode={website4.backendCode}
         LinkToCodeBackend={website4.backendCode}
       />
-    </>
+    </section>
   );
 };
 

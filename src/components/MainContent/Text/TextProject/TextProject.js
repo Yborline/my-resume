@@ -1,3 +1,5 @@
+import { ProjectLink } from "./TextProject.styled";
+
 const TextProject = ({
   titleProject,
   linkToProject,
@@ -5,28 +7,25 @@ const TextProject = ({
   LinkToCodeBackend,
   text,
 }) => {
-    return (
-      <>
-        <>
-          <a href={linkToProject}>{titleProject}</a>
-          {}
-          <span>
-            (link to code <a href={LinkToCode}> frontend </a>
-            {LinkToCodeBackend ? (
-              <>
-                <span> or</span>
-                <a href={LinkToCodeBackend}> backend </a>{" "}
-              </>
-            ) : (
-              ""
-            )}
-            )
-          </span>
-          <span>{text}</span>
-          <br></br>
-        </>
-      </>
-    );
+  return (
+    <div>
+      <ProjectLink href={linkToProject}>{titleProject} </ProjectLink>
+      <span>
+        (link to code <ProjectLink href={LinkToCode}> frontend </ProjectLink>
+        {LinkToCodeBackend ? (
+          <>
+            <span> or</span>
+            <ProjectLink href={LinkToCodeBackend}> backend </ProjectLink>{" "}
+          </>
+        ) : (
+          ""
+        )}
+        )
+      </span>
+      <span>{text}</span>
+      <br></br>
+    </div>
+  );
 };
 
 export default TextProject;

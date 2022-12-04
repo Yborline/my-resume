@@ -18,7 +18,7 @@ const WorkSection = () => {
   };
 
   return (
-    <>
+    <section>
       <Title title={titleSection} />
       <TextWork
         title={work1.position}
@@ -32,7 +32,7 @@ const WorkSection = () => {
         experience={work2.experience}
         text={work2.text}
       />
-    </>
+    </section>
   );
 };
 
