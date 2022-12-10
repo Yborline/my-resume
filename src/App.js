@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import ResumePage from "./pages/ResumePage/ResumePage";
 import { Suspense } from "react";
@@ -9,6 +8,7 @@ function App() {
     <Suspense>
       <Routes>
         <Route path="/" element={<ResumePage />} />
+        <Route path="*" element={<ResumePage />} />
       </Routes>
     </Suspense>
   );
