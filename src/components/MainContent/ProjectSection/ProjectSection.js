@@ -24,11 +24,19 @@ const ProjectSection = () => {
   };
   const website4 = {
     name: "PROJECT-BOOKS",
-    http: "https://project-books.netlify.app/",
+    http: "https://books-reading-rho.netlify.app",
     text: "[HTML,CSS, JS , API ,AJAX , Babel ,React , NodeJS ,Redux , Formik, Axios] , application for book readers, which helps to control the assigned tasks.",
-    frontendCode: "https://github.com/Yborline/project-books",
-    backendCode: "https://github.com/Yborline/project-books-api",
+    frontendCode: "https://github.com/Vasia911119/books",
+    backendCode: "https://github.com/Vasia911119/books-api",
   };
+
+  // const website4 = {
+  //   name: "PROJECT-BOOKS",
+  //   http: "https://books-reading-rho.netlify.app",
+  //   text: "[HTML,CSS, JS , API ,AJAX , Babel ,React , NodeJS ,Redux , Formik, Axios] , application for book readers, which helps to control the assigned tasks.",
+  //   frontendCode: "https://github.com/Vasia911119/books",
+  //   backendCode: "https://github.com/Vasia911119/books-api",
+  // };
 
   return (
     <section>
