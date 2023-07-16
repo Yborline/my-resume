@@ -1,4 +1,4 @@
-import { ProjectLink } from "./TextProject.styled";
+import { ProjectLink, Div } from "./TextProject.styled";
 
 const TextProject = ({
   titleProject,
@@ -8,7 +8,7 @@ const TextProject = ({
   text,
 }) => {
   return (
-    <div>
+    <Div>
       <ProjectLink href={linkToProject}>{titleProject} </ProjectLink>
       <span>
         (link to code <ProjectLink href={LinkToCode}> frontend </ProjectLink>
@@ -24,7 +24,7 @@ const TextProject = ({
       </span>
       <span>{text}</span>
       <br></br>
-    </div>
+    </Div>
   );
 };
 

@@ -14,12 +14,6 @@ const MainContent = () => {
       <WorkSection />
       <EducationSaction />
       <AddEducationSection />
-      {/* 
-      <Title title={titleSummarry} />
-      <Text text={textSummary} />
-
-      <Title title={titleSummarry} />
-      <Text text={textSummary} /> */}
     </Div>
   );
 };
