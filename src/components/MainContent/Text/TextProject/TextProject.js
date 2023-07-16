@@ -12,13 +12,11 @@ const TextProject = ({
       <ProjectLink href={linkToProject}>{titleProject} </ProjectLink>
       <span>
         (link to code <ProjectLink href={LinkToCode}> frontend </ProjectLink>
-        {LinkToCodeBackend ? (
+        {LinkToCodeBackend && (
           <>
             <span> or</span>
             <ProjectLink href={LinkToCodeBackend}> backend </ProjectLink>{" "}
           </>
-        ) : (
-          ""
         )}
         )
       </span>
